@@ -5,7 +5,6 @@
     max-width: 98rem;
     margin: 20px auto;
     padding: 10px;
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
     border-radius: 10px;
     background-color: #d8d7d7;
 }
@@ -15,9 +14,8 @@
     background-color: #040025;
     padding: 10px 0;
     border-radius: 8px;
-    margin-bottom: -40px;
     top: 40px;
-    z-index: 9999;
+    z-index: 999;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
@@ -65,9 +63,8 @@
     font-size: 0.9em;
 }
 
-/* BracketNavLink hover state */
 .BracketNavLink:hover {
-    color: #2793ff;
+    color: rgb(216, 23, 23);
 }
 
 /* BracketNavItem BracketNavFinals BracketNavLink */
@@ -119,7 +116,7 @@
     box-sizing: border-box;
     width: 165px;
     gap: 8px;
-    border:#f3eeee 1px solid;
+    border:#6161615e .5px solid;
 }
 
 .matchup-containers {

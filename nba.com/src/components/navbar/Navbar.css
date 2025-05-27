@@ -1,0 +1,110 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 75px;
+    background-color: #040025;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 2.5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-item:hover {
+    color: #00bfff;
+}
+
+.nav-right {
+    display: flex;
+    gap: 2.5px;
+}
+
+.Login {
+    color: #ffffff;
+    margin-left: 2.5rem;
+}
+
+.Login:hover {
+    color: #00bfff;
+}
+
+.League-Pass {
+    color: #131313;
+    background-color: #eac50d;
+    width: 110px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 2rem;
+
+}
+
+.League-Pass:hover {
+    color: #eaeaea;
+    background-color: #eac50d;
+    text-shadow: 1px 1px 2px #040025;
+}
+
+input {
+    background-color: #d8d7d7;
+    color: #2e2d2d;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #2e2d2d;
+}
