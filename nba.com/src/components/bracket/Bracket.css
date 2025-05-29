@@ -9,12 +9,14 @@
     background-color: #d8d7d7;
 }
 
+
+
 /* BracketNav */
 .BracketNav {
     background-color: #040025;
     padding: 10px 0;
     border-radius: 8px;
-    top: 40px;
+    top: 70px;
     z-index: 999;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;

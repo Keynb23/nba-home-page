@@ -1,5 +1,8 @@
 import './Navbar.css'
 
+
+
+
 function Navbar() {
     return (
         <div className='navbar-container'>
@@ -20,22 +23,26 @@ function Navbar() {
                     <li className='navbar-item'>Fantasy</li>
                     <li className='navbar-item'>BET</li>
                 </ul>
-            
-            <div className="nav-right">
-                <div className="Search">
-                    <input type="text" placeholder="Search" />
-                </div>
+
+                <div className="nav-right">
+                    <div className="Search">
+                        <input
+                            type="text"
+                            placeholder="Search"
+                            className="basketball-hover"
+                        />
+                    </div>
 
 
 
-                <div className="League-Pass">
-                    League Pass
+                    <div className="League-Pass">
+                        League Pass
+                    </div>
+                    <div className="Login">
+                        Login
+                    </div>
                 </div>
-                <div className="Login">
-                    Login
-                </div>
-            </div>
-            </nav>      
+            </nav>
         </div>
     )
 }

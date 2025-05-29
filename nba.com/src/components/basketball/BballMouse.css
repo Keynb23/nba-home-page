@@ -1,0 +1,62 @@
+/* BasketballCursor.css */
+@keyframes bounce {
+  0%    { transform: translateY(0); }
+  50%   { transform: translateY(75px); }
+  100%  { transform: translateY(0); }
+}
+
+@keyframes spin {
+  0%    { transform: rotate(0); }
+  50%   { transform: rotate(360deg); }
+  100%  { transform: rotate(0); }
+}
+
+@keyframes appear {
+  0%    { opacity: 0; width: 1rem; }
+  40%   { opacity: 0; width: 2rem; }
+  50%   { opacity: 1; width: 3.5rem; }
+  60%   { opacity: 0; width: 2rem; }
+  100%  { opacity: 0; width: 1rem; }
+}
+
+#cursor-wrap {
+  position: absolute;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+#cursor {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: bounce 1s ease-out infinite;
+}
+
+.circle {
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #2B2D42;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.fa-basketball-ball {
+  position: absolute;
+  font-size: 3rem;
+  color: #d68213;
+  animation: spin 10s linear infinite;
+  z-index: 3;
+}
+
+.shadow {
+  position: absolute;
+  top: 1rem;
+  width: 3.5rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #8D99AE;
+  animation: appear 1s linear infinite;
+  z-index: 1;
+}
